@@ -56,4 +56,10 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
     implementation "androidx.recyclerview:recyclerview:$recycler_version"
+
+    implementation 'io.reactivex:rxjava-async-util:0.21.0'
+    implementation 'io.reactivex:rxandroid:1.1.0'
+    implementation 'com.jakewharton.rxbinding:rxbinding:0.3.0'
+    implementation 'com.trello:rxlifecycle:0.4.0'
+    implementation 'com.trello:rxlifecycle-components:0.4.0'
 }
